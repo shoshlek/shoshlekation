@@ -1,0 +1,278 @@
+body.main{
+	background-image: url("Download.jpg");
+	margin: 100px;
+	padding: 15px;
+
+}
+
+p.home{
+	text-align: center;
+	font-size: 30px;
+	color: yellow;
+	text-shadow: 2px 2px #000000;
+}
+
+h1.ronifest{
+	color: black;
+	font: sans-serif;
+	font-size: 90px;
+	text-shadow: 2px 2px #ff0000;
+	position: relative;
+	top: 0px;
+	left: 350px;
+
+}
+
+h2.rockfest{
+	color: red;
+	font-size: 50px;
+	text-shadow: 3px 3px #000000;
+}
+
+li{
+	display: list-item;
+}
+
+h1.lineup{
+	text-align: center;	
+	color: #ff6666;
+	font-size: 50px;
+	text-decoration-line: underline;
+	text-decoration-style: double; 
+	text-shadow: 2px 2px black;
+}
+
+body.here{
+	background-image: url("image21.jpg");
+	background-repeat: no-repeat;
+	background-size: 1500px 700px;
+}
+
+p.lineup{
+	font-size: 30px;
+}
+
+form.submit{
+	text-align: center;
+}
+
+
+section.banner{
+	padding-left: 380px;
+}
+
+h1.us{
+	color: red;
+	border: 2px solid lightgreen;
+	text-align: center;
+	background-color: lightgreen;
+}
+
+p.first{
+	text-align: center;
+	font-size: 25px;
+	color: 	#f5dab5;
+}
+
+img.autobob{
+	height: 200px;
+	width: 280px;
+}
+
+h1.tickets{
+	text-decoration: bold;
+	color: #620251;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+
+form.fields{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    text-align: left;
+    padding-top: 50px;
+    margin-right: 100px;
+}
+
+body.mine{
+	background-color: #ff6666;
+	background-image: url("honey.jpg");
+}
+
+main.hey{
+	float: right;
+	margin-right: 80px;  
+}
+	
+
+img.me{
+	width: 400px;
+	height: 300px;
+	margin-left: 440px;
+}
+
+section.section{
+	text-align: center;
+}
+
+form.fields{
+	color: #FF5733;
+	font-size: 20px;
+	padding-bottom: 200px;
+}
+
+body.floor{
+	background-color: grey;
+}
+
+.sidenav {
+  	width: 130px;
+  	position: relative;
+  	z-index: 1;
+  	top: 20px;
+  	left: 10px;
+  	background: #eee;
+  	overflow-x: hidden;
+  	padding: 8px 0;
+}
+
+.sidenav a {
+  	padding: 6px 8px 6px 16px;
+  	text-decoration: none;
+  	font-size: 25px;
+  	color: #2196F3;
+  	display: block;
+}
+
+.sidenav a:hover {
+  	color: black;
+}
+
+#menu a {
+ 	text-decoration: none;
+ 	color: black;
+ 	font-family: sans-serif;
+ 	font-size: 15px;
+ 	padding: 5px;
+
+}
+#menu ul li {
+ 	display: inline;
+}
+
+.dropdown-menu {
+ 	display: none;
+}
+
+#slider {
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+
+.container {
+	margin-left: 250px;
+}
+
+.links {
+	color: black;
+	font-size: 25px;
+	float: left;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #3B5998;
+  color: white;
+}
+
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px; 
+  text-decoration: none;
+  font-size: 20px; 
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: #FFC300;
+}
+
+#lineup {
+  top: 80px;
+  background-color: black; 
+}
+
+#tickets {
+  top: 140px;
+  background-color: #f44336; 
+}
+
+img { 
+	height: 500px;
+	width: 500px;
+	padding-left: 100px;
+}
+
+div.fuckit {
+	border-style: double;
+	margin-right: 980px;
+	padding-left: : 100px;
+	background-color: lightgrey;
+}

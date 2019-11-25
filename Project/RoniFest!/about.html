@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+<div id="menu">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="lineup.html">Line Up</a></li>
+    <li><a href="tickets.html">Tickets</a>
+      <ul class="dropdown-menu">
+        <li><a href="lineup.html">Line Up</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>	
+</head>
+<body class="floor">
+
+	<h1 class="us">About Us</h1>
+
+<main>
+	<p class="first">Have you ever got annoyed by the fact that all major music festivals are being held in Europe or USA?<br>Good! We're here to end your frustration!<br>Join us for the first music festival in Israel that includes the greatest bands in the world. We'll provide camping areas, food stands, facilities, merchandise, drinks and tons of rock!<br><br>Roni Granit is a true rock fan. She started out as a punk and discovered the gods of rock, metal, blues and so much more. Roni's dream was to be in a rock concert. One day, she flew to the States and met Green Day at a small venue. They asked her if there where any rock festivals in Israel and she sadly relpy - no. Roni never gave up. She used up all her connections in the music world until she was finally able to bring this event to life!</p>
+</main>
+
+<br><br><br><br>
+
+<img src="autobob.jpg" class="me">
+
+<section class="section">
+	<p class="aboutus">Contact us:</p>
+	<form class="submit">
+		<label for="fullname">Name:</label>
+		<input type="text" id="fullname">
+		<br><br>
+		<label for="Email">Email:</label>
+		<input type="email" name="email">
+		<br><br>
+		<label for="message">Message:</label><br>
+		<textarea name="message" id="message" cols="30" rows="10" placeholder="what's on your mind?"></textarea>	
+		<br><br>
+
+		<input type="submit" value="submit">
+	</form>
+</section>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a href="https://www.facebook.com/autobotbob" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/ronny.granit/" class="fa fa-instagram"></a>
+<a href="https://www.linkedin.com/in/roni-urlansky-461630189/" class="fa fa-linkedin"></a>
+
+<footer>
+	<p>Festival creator: Roni Granit - roni.granit@gmail.com</p>
+</footer>
+
+<script src="C:/Users/ronig/Desktop/Project/RoniFest!/jquery.jqeury-3.4.1.js"></script>
+<script>
+	$(document).ready(function(){
+  $("#menu li").hover(function(){
+    $(".dropdown-menu", this).slideDown(100);
+  }, function(){
+    $(".dropdown-menu", this).stop().slideUp(100);
+  });
+})
+</script>
+</body>
+</html>
